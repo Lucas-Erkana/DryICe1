@@ -2767,3 +2767,16 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+
+.btn-watch-video {
+  position: absolute; /* Position over the image */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center perfectly */
+  background-color: red; /* Red background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Add rounded corners */
+}
