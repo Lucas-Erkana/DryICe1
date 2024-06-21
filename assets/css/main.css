@@ -795,6 +795,14 @@ section,
   font-family: var(--heading-font);
 }
 
+.section-title .lowerheading p {
+  color: var(--heading-color);
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--heading-font);
+}
+
 .section-title p .description-title {
   color: var(--accent-color);
 }
