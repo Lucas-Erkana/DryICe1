@@ -74,8 +74,8 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 100px;
-  max-width: 80px;
+  max-height: 80px!important;
+  max-width: 60px!important;
   margin-right: 8px;
 }
 
@@ -107,8 +107,8 @@ h6 {
 @media (max-width: 1200px) {
   .header .logo {
     order: 1;
-    max-height: 100px;
-    max-width: 80px;
+    max-height: 60px!important;
+    max-width: 40px!important;
   }
 
   .header .btn-getstarted {
