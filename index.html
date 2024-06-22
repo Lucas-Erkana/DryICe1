@@ -183,11 +183,31 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item item-indigo position-relative">
               <i class="bi bi-calendar4-week icon"></i>
-              <h3>Blasting</h3>
-              <p>Remove rust, paint and debris from sensitive areas.</p>
-              <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <h3>Dry Ice Blasting</h3>
+              <p>Dry Ice Blasting utilizes the highly effective method of dry ice blasting for a range of applications, including but not limited to the following:</p>
+              <a href="#" class="read-more stretched-link" onclick="showMore(this)"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <div class="more-content" style="display: none;">
+                <p><strong>Underbody cleaning</strong> - Our advanced dry ice blasting technique efficiently removes dirt, grime, oil & other contaminants from the underbody of various surfaces ensuring a thorough and meticulous cleaning result.</p>
+                <p><strong>Cleaning and restoration of mechanical components</strong> - With the power of dry ice, we are able to safely and effectively clean and restore mechanical components to their optimal condition. This process eliminates the need for harsh chemicals, ensuring both the longevity and proper functionality of the component.</p>
+                <p><strong>Residue removal</strong> - Our dry ice blasting method excels in the removal of stubborn residues such as oil, grease and overspray. With precision and efficiency, we eliminate these unwanted substances, leaving the surface clean and residue-free.</p>
+                <p><strong>Cleaning hard-to-reach areas</strong> - With our expertise in dry ice blasting, we are able to access and clean even the most challenging and hard-to-reach areas. Our specialized equipment and techniques allow for thorough cleaning, ensuring no corner goes untouched.</p>
+              </div>
             </div>
           </div><!-- End Service Item -->
+          
+          <script>
+          function showMore(element) {
+            const moreContent = element.nextElementSibling;
+            if (moreContent.style.display === "none") {
+              moreContent.style.display = "block";
+              element.querySelector("span").innerText = "Read Less";
+            } else {
+              moreContent.style.display = "none";
+              element.querySelector("span").innerText = "Read More";
+            }
+          }
+          </script>
+          
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item item-pink position-relative">
